@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda Virtual</title>
     <style>
+      body,
+      html {
+        font-family: "Inter", sans-serif;
+      }
       header {
         border: 1px solid red;
         height: 152px;
@@ -34,7 +38,26 @@
         object-fit:cover;
         object-position: center center;
       }
+      .product-price-block {
+        display: flex;
+        margin: 5px 0;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .product-card {
+        background-color: #f0f0f0;
+        border-radius: 14px;
+        max-width: 25%;
+        overflow: hidden;
+      }
+      .product-info {
+        padding: 20px;
+        box-sizing: border-box;
+      }
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css..." />    
   </head>
   <body>
     <header>

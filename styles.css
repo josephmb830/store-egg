@@ -1,6 +1,8 @@
 body,
 html {
     font-family: "Inter", sans-serif;
+    margin: 0;
+    border: 0;
 }
 header {
     border: 1px solid red;
@@ -9,6 +11,17 @@ header {
 section {
     border: 1px solid purple;
     height: 340px;
+}
+section#hero {
+    background:url('./images/hero_bg.png');
+    background-size: cover;
+    background-position: top center;
+}
+section#hero .container{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: flex-start;
 }
 main {
     border: 1px solid blue;

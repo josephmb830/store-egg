@@ -9,6 +9,11 @@ header {
     height: 152px;
     background-color: #ff3b3c; /* Ejemplo de color */
 }
+.search {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+}
 /* Hero section */
 section#hero {
     border: 1px solid purple;

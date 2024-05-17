@@ -5,18 +5,62 @@ html {
     border: 0;
 }
 header {
-    border: 1px solid red;
     height: 152px;
     background-color: #ff3b3c; /* Ejemplo de color */
+    padding: 18px 44px;
 }
 .search {
     flex:1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
+.search .form {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+.search .form input {
+    height: 62px;
+    border-radius: 14px;
+    border: none;
+    width: 505px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+.search .social ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.search .social ul li {
+    padding: 0 10px;
+  }
+  .nav {
+    padding: 10px 0;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav ul li a {
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav ul li a:hover {
+    text-decoration: underline;
+  }  
 /* Hero section */
 section#hero {
-    border: 1px solid purple;
     height: 340px;
     background:url('./images/hero_bg.png');
     background-size: cover;
@@ -40,17 +84,16 @@ section#hero .container{
     line-height: 80px;
 }
 main {
-    border: 1px solid blue;
     height: auto;
+    padding-top: 18px;
 }
 footer {
     border: 1px solid #009145; /* Hexadecimal color code*/
     min-height: 368px;
 }
 .container {
-    width: 1220px;
+    width: 100%;
     margin: 0 auto;
-    border: 1px solid springgreen;
     height: inherit;
     min-height: inherit;
 }
@@ -109,4 +152,20 @@ footer {
     font-size: 12px;
     font-weight: 700;
     color: #428f13;
+}
+
+/* vista de tableta */
+
+@media (max-width: 860px) {
+    .search .form input {
+        width: 300px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

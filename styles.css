@@ -154,7 +154,7 @@ footer {
     color: #428f13;
 }
 
-/* vista de tableta */
+/* vista de tableta L*/
 
 @media (max-width: 860px) {
     .search .form input {
@@ -167,5 +167,147 @@ footer {
 
     .product-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* vista de tableta M */
+
+@media (max-width: 655px) {
+
+    .search .logo img {
+        width: 185px;
+    }
+
+    .search .form input {
+        width: 185px;
+    }
+
+    .title-container span:first-child {
+        font-size: 40px;
+    }
+    .title-container span:last-child {
+        font-size: 90px;
+        line-height: 80px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* vista de tableta M */
+
+@media (max-width: 507px) {
+
+    .search .logo img {
+        width: 185px;
+    }
+
+    .search .form input {
+        width: 110px;
+    }
+
+    .title-container span:first-child {
+        font-size: 40px;
+    }
+    .title-container span:last-child {
+        font-size: 90px;
+        line-height: 80px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* vista de telefono L */
+
+@media (max-width: 427px) {
+    .search .logo img {
+        width: 150px;
+    }
+
+    .search .form input {
+        width: 110px;
+    }
+
+    .title-container span:first-child {
+        font-size: 35px;
+    }
+    .title-container span:last-child {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* vista de telefono M */
+
+@media (max-width: 387px) {
+    .search .logo img {
+        width: 110px;
+    }
+
+    .search .form input {
+        width: 70px;
+    }
+
+    .title-container span:first-child {
+        font-size: 30px;
+    }
+    .title-container span:last-child {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* vista de telefono S */
+
+@media (max-width: 320px) {
+    .search .logo img {
+        width: 100px;
+    }
+
+    .search .form input {
+        width: 50px;
+    }
+
+    .title-container span:first-child {
+        font-size: 25px;
+    }
+    .title-container span:last-child {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

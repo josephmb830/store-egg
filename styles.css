@@ -90,6 +90,7 @@ main {
 footer {
     border: 1px solid #009145; /* Hexadecimal color code*/
     min-height: 368px;
+    background-color: #7525A7;
 }
 .container {
     width: 100%;

@@ -104,6 +104,7 @@ footer .container {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .columns-container .col ul {
@@ -125,7 +126,7 @@ footer .container {
     text-decoration: none;
   }
 
-  .copyright {
+.copyright {
     border-top: 1px solid #ba53fb;
     text-align: center;
     color: white;

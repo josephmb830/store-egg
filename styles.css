@@ -84,11 +84,13 @@ section#hero .container{
     line-height: 80px;
 }
 main {
+    border: 1px solid #009145;
     height: auto;
     padding-top: 18px;
+    margin: 45px 0;
 }
 footer {
-    border: 1px solid #009145; /* Hexadecimal color code*/
+    /* border: 1px solid #009145;  */
     min-height: 368px;
     background-color: #7525A7;
 }

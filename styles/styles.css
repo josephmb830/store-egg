@@ -94,7 +94,7 @@ section#hero .container{
 /* Estilos del cuerpo y en particular de la tarjeta del producto */
 
 main {
-    border: 1px solid #009145;
+    /* border: 1px solid #009145; */
     height: auto;
     padding-top: 18px;
     margin: 45px 0;
@@ -106,6 +106,7 @@ main {
     height: inherit;
     min-height: inherit;
 }
+
 .product-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

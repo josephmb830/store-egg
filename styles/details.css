@@ -94,7 +94,7 @@ section#hero .container{
 /* Estilos del cuerpo y en particular de la tarjeta del producto */
 
 main {
-    border: 1px solid #009145;
+    /* border: 1px solid #009145; */
     height: auto;
     padding-top: 18px;
     margin: 45px 0;
@@ -107,6 +107,13 @@ main {
     min-height: inherit;
 }
 
+main .container .columns-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}   
 
 
 /* Estilos del pie de página */

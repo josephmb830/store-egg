@@ -97,7 +97,7 @@ main {
     /* border: 1px solid #009145; */
     height: auto;
     padding-top: 18px;
-    margin: 45px 0;
+    margin: 45px 180px;
 }
 
 .container {
@@ -115,6 +115,11 @@ main .container .columns-container {
     gap: 20px;
 }   
 
+.product-images-block, 
+.product-description-block, 
+.product-checkout-block {
+    flex: 1;
+  }
 
 /* Estilos del pie de página */
 

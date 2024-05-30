@@ -62,33 +62,7 @@ header {
   }
   .nav ul li a:hover {
     text-decoration: underline;
-  }  
-
-/* Hero section */
-
-section#hero {
-    height: 340px;
-    background:url('/images/hero_bg.png');
-    background-size: cover;
-    background-position: top center;
-}
-section#hero .container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.title-container span {
-    display: block;
-    color: white;
-    font-weight: 700;
-}
-.title-container span:first-child {
-    font-size: 40px;
-}
-.title-container span:last-child {
-    font-size: 100px;
-    line-height: 80px;
-}
+  }
 
 
 /* Estilos del cuerpo y en particular de la tarjeta del producto */
@@ -107,13 +81,13 @@ main {
     min-height: inherit;
 }
 
-main .container .columns-container {
+.columns-container {
     flex: 1;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-}   
+}
 
 .product-images-block, 
 .product-description-block, 
@@ -141,58 +115,60 @@ main .container .columns-container {
   }
 
   /* Estilo para el formulario y el selector */
-.selector fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
+.product-description-block .selector fieldset {
+    border: 2px #919191 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    border-radius: 15px;
+    font-size: 15px;
   }
 
   .selector .label {
     display: block;
-    margin-bottom: 5px;
     font-weight: bold;
     color: #333;
   }
 
-  .selector select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+  .product-description-block .selector select {
+    padding: 5px;
+    border: none;
+    outline: none;
     border-radius: 5px;
-    background-color: #f9f9f9;
     font-size: 16px;
     color: #333;
   }
 
   /* Estilo para la descripción detallada */
-.detail-description {
+  .product-description-block .detail-description {
     margin-top: 50px;
   }
 
-  .detail-description span {
+  .product-description-block .detail-description span {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
   }
 
-  .detail-description p {
+  .product-description-block .detail-description p {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
   }
 
-  .detail-description ul {
+  .product-description-block .detail-description ul {
     margin-top: 10px;
   }
 
-  .detail-description li {
+  .product-description-block .detail-description li {
     font-size: 16px;
     margin-bottom: 5px;
     color: #666;
   }
 
-  .detail-description li strong {
+  .product-description-block .detail-description li strong {
     color: #333;
   }
   
@@ -210,12 +186,6 @@ footer .container {
     flex-direction: column;
 }
 
-.columns-container {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
 .columns-container .col ul {
     padding: 0;

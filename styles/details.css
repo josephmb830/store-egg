@@ -95,6 +95,26 @@ main {
     flex: 1;
   }
 
+  /* Estilo para el bloque de imagenes del producto */
+  .product-images-block {
+    max-width: 100%;
+    overflow: hidden; /* Asegúrate de que las imágenes no desborden el contenedor */
+  }
+
+  .product-images-block .thumbnail-container {
+    max-width: 100%;
+    overflow: hidden; /* Mantiene la imagen dentro del contenedor */
+    margin: 5px; /* Ajusta el margen según sea necesario */
+    border: 1px solid #ccc; /* Opcional, si deseas bordes */
+  }
+
+  .product-images-block .thumbnail-container img {
+    max-width: 100%;
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    object-fit: contain; /* Asegura que la imagen se ajuste completamente dentro del contenedor */
+    object-position: center center; /* Centra la imagen en el contenedor */
+  }
+
   /* Estilo para el bloque de descripción del producto */
 .product-description-block {
     max-width: 600px;

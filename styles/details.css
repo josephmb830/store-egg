@@ -91,7 +91,7 @@ main {
 
 .product-images-block, 
 .product-description-block, 
-.product-checkout-block {
+.checkout-container {
     flex: 1;
   }
 
@@ -191,6 +191,28 @@ main {
   .product-description-block .detail-description li strong {
     color: #333;
   } */
+  
+  .checkout-container {
+    background-color: #ebebeb; /* Color de fondo claro */
+    padding: 33px; /* Espaciado interno */
+    border-radius: 2px; /* Bordes ligeramente redondeados */
+  }
+
+  .checkout-total-label {
+    color: #ff3b3c; /* Color distintivo para el texto 'Total:' */
+  }
+
+  .checkout-total-price {
+    font-size: 28px; /* Tamaño grande para el precio */
+    font-weight: 700; /* Fuente en negrita */
+    margin-top: 10px; /* Espacio por encima del precio */
+  }
+
+  .checkout-description {
+    line-height: 20.4px; /* Espaciado de línea para mejorar la legibilidad */
+    word-wrap: break-word; /* Asegura que el texto no desborde el contenedor */
+  }
+  
   
 
 /* Estilos del pie de página */

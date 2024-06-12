@@ -92,6 +92,7 @@ main {
 .product-images-block, 
 .product-description-block, 
 .checkout-container {
+    margin: 0px 10px;
     flex: 1;
   }
 
@@ -99,13 +100,13 @@ main {
   .product-images-block {
     max-width: 100%;
     overflow: hidden; /* Asegúrate de que las imágenes no desborden el contenedor */
+    display: grid;
+    grid-template-columns: 1fr 5fr;
   }
 
   .product-images-block .thumbnail-container {
-    max-width: 100%;
-    overflow: hidden; /* Mantiene la imagen dentro del contenedor */
-    margin: 5px; /* Ajusta el margen según sea necesario */
-    border: 1px solid #ccc; /* Opcional, si deseas bordes */
+    grid-column: 1;
+    margin: 3px; /* Ajusta el margen según sea necesario */
   }
 
   .product-images-block .thumbnail-container img {
@@ -115,10 +116,15 @@ main {
     object-position: center center; /* Centra la imagen en el contenedor */
   }
 
+  .product-images-block .main-image {
+    width: 100%;
+    grid-row: 1 / 5;
+    grid-column: 2 / 5;
+  }
+
   /* Estilo para el bloque de descripción del producto */
 .product-description-block {
     max-width: 600px;
-    margin: auto;
     padding: 20px;
     border: 1px solid #e1e1e1;
     border-radius: 10px;

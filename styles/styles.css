@@ -175,11 +175,11 @@ main {
 
 footer {
     /* border: 1px solid #009145;  */
-    min-height: 368px;
     background-color: #7525A7;
 }
 
 footer .container {
+    width: 1000px;
     display: flex;
     flex-direction: column;
 }
@@ -189,6 +189,7 @@ footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px; 
 }
 
 .columns-container .col ul {

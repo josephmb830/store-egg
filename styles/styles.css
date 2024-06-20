@@ -96,8 +96,7 @@ section#hero .container{
 main {
     /* border: 1px solid #009145; */
     height: auto;
-    padding-top: 18px;
-    margin: 45px 0;
+    padding: 50px;
 }
 
 .container {
@@ -237,6 +236,14 @@ footer .container {
     .product-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    footer .container {
+        width: 100%;
+    }
+
+    footer .columns-container {
+        padding: 60px;
+    }
 }
 
 /* vista de tableta M */
@@ -265,6 +272,14 @@ footer .container {
 
     .product-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    footer .columns-container {
+        padding: 50px;
     }
 }
 
@@ -295,6 +310,14 @@ footer .container {
     .product-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    footer .container {
+        width: 100%;
+    }
+
+    footer .columns-container {
+        padding: 40px;
+    }
 }
 
 /* vista de telefono L */
@@ -322,6 +345,14 @@ footer .container {
 
     .product-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    footer .columns-container {
+        padding: 30px;
     }
 }
 
@@ -351,6 +382,14 @@ footer .container {
     .product-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    footer .container {
+        width: 100%;
+    }
+
+    footer .columns-container {
+        padding: 20px;
+    }
 }
 
 /* vista de telefono S */
@@ -378,5 +417,13 @@ footer .container {
 
     .product-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    footer .columns-container {
+        padding: 10px;
     }
 }
